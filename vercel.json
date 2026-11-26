@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "node build.mjs",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/vehicles.json",
+      "destination": "https://renmotor-tw.github.io/vehicles.json"
+    }
+  ]
+}
