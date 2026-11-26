@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090909">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com; connect-src 'self' https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com; img-src 'self' https://cdn.store-assets.com https://www.googletagmanager.com https://*.google-analytics.com; object-src 'none'; frame-src 'none'; base-uri 'none'; form-action 'none'">
+<title>阿人車庫 RenMotor｜中古機車查詢與購車諮詢</title>
+<meta name="description" content="阿人車庫 RenMotor_ 為貳輪嶼中古機車在職業務獨立建立的車輛展示平台。瀏覽中古機車並透過貳輪嶼官方 LINE 詢問車況、價格與賞車安排。">
+<link rel="canonical" href="https://renmotor-tw.github.io/">
+<link rel="icon" href="./favicon.png" type="image/png" sizes="96x96">
+<link rel="stylesheet" href="./styles.css?v=11671c093dfc">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "阿人車庫 RenMotor",
+  "url": "https://renmotor-tw.github.io/"
+}
+</script>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#" aria-label="RenMotor 首頁">
+    <img class="logo" src="./ren-logo.png" alt="阿人車庫 Logo">
+    <div>RenMotor_<small>阿人車庫<span lang="en"> · RIDE YOUR WAY</span></small></div>
+  </a>
+  <nav class="navlinks" aria-label="網站導覽">
+    <a href="#inventory">車庫現有車款</a>
+    <a href="#faq">購車常見問題</a>
+    <a href="#contact">聯絡我們</a>
+  </nav>
+  <div class="nav-actions">
+    <button class="nav-icon nav-filter" id="openFilters" type="button" aria-label="篩選車款" aria-haspopup="dialog" aria-controls="filterDrawer" aria-expanded="false">
+      <span class="search-icon" aria-hidden="true"></span>
+    </button>
+    <a class="nav-icon" href="https://www.instagram.com/renmotor_/" target="_blank" rel="noopener noreferrer" aria-label="查看阿人車庫 Instagram 動態"><span class="ig-icon" aria-hidden="true"></span></a>
+    <a class="nav-icon" href="https://www.threads.com/@renmotor_" target="_blank" rel="noopener noreferrer" aria-label="查看阿人車庫 Threads 動態"><svg class="threads-icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M6.321 6.016c-.27-.18-1.166-.802-1.166-.802.756-1.081 1.753-1.502 3.132-1.502.975 0 1.803.327 2.394.948s.928 1.509 1.005 2.644q.492.207.905.484c1.109.745 1.719 1.86 1.719 3.137 0 2.716-2.226 5.075-6.256 5.075C4.594 16 1 13.987 1 7.994 1 2.034 4.482 0 8.044 0 9.69 0 13.55.243 15 5.036l-1.36.353C12.516 1.974 10.163 1.43 8.006 1.43c-3.565 0-5.582 2.171-5.582 6.79 0 4.143 2.254 6.343 5.63 6.343 2.777 0 4.847-1.443 4.847-3.556 0-1.438-1.208-2.127-1.27-2.127-.236 1.234-.868 3.31-3.644 3.31-1.618 0-3.013-1.118-3.013-2.582 0-2.09 1.984-2.847 3.55-2.847.586 0 1.294.04 1.663.114 0-.637-.54-1.728-1.9-1.728-1.25 0-1.566.405-1.967.868ZM8.716 8.19c-2.04 0-2.304.87-2.304 1.416 0 .878 1.043 1.168 1.6 1.168 1.02 0 2.067-.282 2.232-2.423a6.2 6.2 0 0 0-1.528-.161"/></svg></a>
+  </div>
+</div></header>
+<main>
+<section class="hero"><div class="wrap hero-grid">
+  <div><div class="eyebrow">PRE-OWNED MOTORCYCLE GARAGE</div><h1>找到你的<br><span>下一台。</span></h1><p>每一台車，都值得被好好介紹。用清楚的車況資訊、透明的價格與實在的服務，陪你找到適合自己的騎乘夥伴。</p>
+  <div class="hero-actions"><a class="btn primary" href="#inventory">瀏覽現有車款 ↘</a><a class="btn ghost" href="#faq">購車常見問題</a></div>
+  <div class="stats"><div class="stat"><strong>REAL</strong><span>真實車況資訊</span></div><div class="stat"><strong>CARE</strong><span>用心整理每台車</span></div><div class="stat"><strong>RIDE</strong><span>找到適合你的車</span></div></div></div>
+
+<section class="hero-about" aria-labelledby="hero-about-title">
+  <h2 id="hero-about-title">關於阿人車庫</h2>
+  <p>阿人車庫 RenMotor_ 由貳輪嶼中古機車在職業務獨立建立，提供中古機車資訊展示、選車建議與賞車諮詢服務。</p>
+  <p>本網站所有 LINE 聯繫按鈕及 QR Code，皆導向<strong>『貳輪嶼中古機車』全公司官方 LINE 帳號</strong>，並非連結錯誤，請安心使用。</p>
+  <p class="hero-about-note">※ 阿人車庫 RenMotor_ 為個人建立之車輛展示平台，非貳輪嶼官方網站。</p>
+</section>
+
+<div class="hero-visual">
+  <img src="./ren-logo.png" alt="阿人車庫 RenMotor 品牌 Logo">
+  <div class="hero-stamp">RENMOTOR_ / FIND YOUR RIDE</div>
+</div>
+</div></section>
+<section class="section" id="inventory" aria-labelledby="inventory-title"><div class="wrap">
+  <h2 class="visually-hidden" id="inventory-title">車庫現有車款</h2>
+  <div class="inventory-summary" role="group" aria-label="車輛統計與分頁" aria-live="polite">
+    <div class="inventory-stat">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="5" cy="17" r="4"/><circle cx="19" cy="17" r="4"/><path d="m5 17 5-9 4 9H5m9 0 4-9m-2-3h3m-11 3H6"/></svg>
+      <strong><span id="resultCount">—</span> 台</strong>
+      <span class="inventory-stat-label">符合條件的在售車輛</span>
+    </div>
+    <div class="inventory-stat">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-3 7-10V5l-7-3-7 3v7c0 7 7 10 7 10Z"/><path d="m9 12 2 2 4-4"/></svg>
+      <strong><span id="warrantyCount">—</span> 台</strong>
+      <span class="inventory-stat-label">保固車</span>
+    </div>
+    <div class="inventory-stat inventory-stat--as-is">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-3 7-10V5l-7-3-7 3v7c0 7 7 10 7 10Z"/><path d="M12 8v4m0 4h.01"/></svg>
+      <strong><span id="asIsCount">—</span> 台</strong>
+      <span class="inventory-stat-label">現況車</span>
+    </div>
+    <div class="inventory-stat">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 7a9 9 0 0 0-15 2M20 3v4h-4M4 17a9 9 0 0 0 15-2M4 21v-4h4"/></svg>
+      <strong><time id="inventoryUpdated">—</time></strong>
+      <span class="inventory-stat-label">資料更新（台灣時間）</span>
+    </div>
+    <div class="inventory-stat inventory-stat--page">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6m-6 4h6m-6 4h4"/></svg>
+      <strong><span id="pageInfo">第 — / — 頁</span></strong>
+      <span class="inventory-stat-label">每頁最多 <span id="pageSize">50</span> 台</span>
+    </div>
+  </div>
+  <div class="sync-status" id="syncStatus">正在載入公開商城車輛資料…</div>
+  <div class="cards" id="cards"></div><div class="empty" id="empty" hidden>沒有符合條件的車款，試試調整搜尋條件。</div><div class="pagination" id="pagination" aria-label="車輛分頁"></div>
+  <p class="notice">※ 資料來源：貳輪嶼公開商城。車輛可能已售出、調價或下架，歡迎透過 LINE 詢問確認。本網站非即時庫存保證。</p>
+</div></section>
+<section class="section faq-section" id="faq" aria-labelledby="faq-title"><div class="wrap faq-wrap">
+  <h2 id="faq-title">購車常見問題</h2>
+  <details class="faq-item" name="purchase-faq" open>
+    <summary>保固車和現況車有什麼差別？</summary>
+    <p>保固車為<strong>引擎保固一年或行駛10000公里</strong>(以先到為主)、消耗品為<strong>保固一個月或行駛1000公里</strong>(以先到為主)；現況車為優惠價售出，故無任何的售後保固</p>
+  </details>
+  <details class="faq-item" name="purchase-faq">
+    <summary>可以分期付款嗎？</summary>
+    <p>我們配合的是民間貸款資融公司；需年滿18歲成年、且有薪轉帳證明或勞健保證明；需<strong>無酒駕及毒駕紀錄‼️</strong><br>請提供想看的車款，向門市確認可用的分期方案、期數、每期金額及總費用。實際條件以申辦結果與契約為準。</p>
+  </details>
+  <details class="faq-item" name="purchase-faq">
+    <summary>可以現場看車或試騎嗎？</summary>
+    <p>出發前可先提供車款或車輛編號，請門市確認庫存並預約。若要試騎，請先詢問門市的安排並備妥有效駕照。</p>
+  </details>
+  <details class="faq-item" name="purchase-faq">
+    <summary>過戶需要準備什麼？</summary>
+    <p>身分證正本、第二證件正本(健保卡或駕照擇一)、印章<br>※外籍人士需改提供A.R.C</p>
+  </details>
+  <details class="faq-item" name="purchase-faq">
+    <summary>外縣市可以買車或安排託運嗎？</summary>
+    <p>請告知取車地點或送達縣市，讓門市確認能否安排託運，以及費用、交付時間與驗收方式。</p>
+  </details>
+  <details class="faq-item" name="purchase-faq">
+    <summary>怎麼確認里程、車況和事故紀錄？</summary>
+    <p>可以先看原商品頁的照片和車況說明，並在看車時請門市說明里程、已知事故或泡水紀錄，以及可提供的檢查或維修資料。</p>
+  </details>
+  <div class="faq-contact">
+    <a class="line-action" data-line-contact href="https://line.me/R/ti/p/%40motor1688" target="_blank" rel="noopener noreferrer">聯繫貳輪嶼官方 LINE</a>
+  </div>
+</div></section>
+</main>
+<footer id="contact"><div class="wrap footer-row">
+  <div>
+    <div class="footer-brand">Ren<span>Motor_</span> 阿人車庫</div>
+    <div class="footer-note">中古機車精選 · FIND YOUR RIDE</div>
+    <div class="footer-disclaimer">車況、價格與保固以實際確認及書面約定為準。</div>
+    <div class="footer-copyright">© 2026 阿人車庫製作.</div>
+  </div>
+  <section class="line-contact" aria-labelledby="line-contact-title">
+    <div>
+      <h2 id="line-contact-title">有喜歡的車輛嗎？</h2>
+      <p>透過阿人車庫找到心儀的車款後，歡迎透過貳輪嶼官方 LINE 聯繫，進行車輛諮詢、車況確認及賞車安排。</p>
+      <a class="line-action" id="lineAddFriend" data-line-contact href="https://line.me/R/ti/p/%40motor1688" target="_blank" rel="noopener noreferrer">聯繫貳輪嶼官方 LINE</a>
+      <p class="line-contact-note">※ 阿人車庫為貳輪嶼在職業務獨立建立之展示平台，所有車輛實際銷售、簽約及交易依貳輪嶼公司流程辦理。</p>
+    </div>
+    <img class="line-qr" src="./line-qr.png?v=bb7c1af05fe2" width="120" height="120" loading="lazy" alt="掃描 QR Code 加入貳輪嶼車業官方 LINE @motor1688">
+  </section>
+</div></footer>
+<a class="line-float" data-line-contact href="https://line.me/R/ti/p/%40motor1688" target="_blank" rel="noopener noreferrer" aria-label="貳輪嶼官方 LINE 洽詢 @motor1688">
+  <span class="line-bubble" aria-hidden="true"></span> 貳輪嶼 LINE 洽詢
+</a>
+<dialog class="filter-drawer" id="filterDrawer" aria-labelledby="filterTitle">
+  <div class="filter-heading">
+    <h2 id="filterTitle">篩選車款</h2>
+    <button class="filter-close" id="closeFilters" type="button" aria-label="關閉篩選" autofocus>×</button>
+  </div>
+  <form id="filterForm" method="dialog">
+    <div class="filter-fields">
+      <div class="field field-wide">
+        <label for="search">關鍵字搜尋</label>
+        <input id="search" type="search" autocomplete="off" placeholder="輸入品牌、車型或車輛編號">
+      </div>
+      <div class="field">
+        <label for="storeFilter">門市</label>
+        <select id="storeFilter"><option value="">全部門市</option></select>
+      </div>
+      <div class="field">
+        <label for="brandFilter">品牌</label>
+        <select id="brandFilter">
+          <option value="">全部品牌</option>
+          <option value="YAMAHA">YAMAHA 山葉</option>
+          <option value="SYM">SYM 三陽</option>
+          <option value="KYMCO">KYMCO 光陽</option>
+          <option value="HONDA">HONDA 本田</option>
+          <option value="SUZUKI">SUZUKI 台鈴／鈴木</option>
+          <option value="KAWASAKI">KAWASAKI 川崎</option>
+          <option value="GOGORO">GOGORO 睿能</option>
+          <option value="AEON">AEON 宏佳騰</option>
+          <option value="BMW">BMW</option>
+          <option value="HARTFORD">HARTFORD 哈特佛</option>
+          <option value="PGO">PGO</option>
+          <option value="VESPA">VESPA</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="categoryFilter">排氣量與車種</label>
+        <select id="categoryFilter">
+          <option value="">全部車種</option>
+          <option value="electric">電動車款</option>
+          <option value="green-50">50cc 綠牌車款</option>
+          <option value="up-to-125">125cc 以下車款</option>
+          <option value="126-150">126–150cc 車款</option>
+          <option value="151-249">151–249cc 車款</option>
+          <option value="heavy">紅黃牌重機</option>
+          <option value="white-manual">白牌檔車</option>
+          <option value="vespa">偉士牌</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="warrantyFilter">保固篩選</label>
+        <select id="warrantyFilter">
+          <option value="">全部車輛</option>
+          <option value="warranty">保固車</option>
+          <option value="as-is">現況車</option>
+        </select>
+      </div>
+      <div class="field field-wide">
+        <label for="sortFilter">排序方式</label>
+        <select id="sortFilter">
+          <option value="newest">最新上架</option>
+          <option value="low">價格由低至高</option>
+          <option value="high">價格由高至低</option>
+        </select>
+      </div>
+    </div>
+    <div class="filter-actions">
+      <button class="btn ghost" id="resetBtn" type="button">重設全部</button>
+      <button class="btn primary" type="submit">套用篩選</button>
+    </div>
+  </form>
+</dialog>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal-box"><button class="modal-close" id="closeModal" aria-label="關閉">✕</button><div class="modal-content" id="modalContent"></div></div>
+  <div class="vehicle-preview-backdrop" id="vehiclePreviewBackdrop" aria-hidden="true" hidden></div>
+  <section class="vehicle-preview" id="vehiclePreview" aria-labelledby="vehiclePreviewTitle" hidden>
+    <div class="vehicle-preview-header">
+      <h3 id="vehiclePreviewTitle"></h3>
+      <button type="button" id="closeVehiclePreview" aria-label="關閉預覽">×</button>
+    </div>
+    <div class="vehicle-preview-body" id="vehiclePreviewBody" tabindex="0"></div>
+  </section>
+</div>
+<dialog class="vehicle-line-dialog" id="vehicleLineDialog" aria-labelledby="vehicleLineTitle" aria-describedby="vehicleLineDescription">
+  <div class="vehicle-line-dialog-body">
+    <button class="vehicle-line-close" id="closeVehicleLineDialog" type="button" aria-label="關閉 LINE 詢問" autofocus>×</button>
+    <h2 id="vehicleLineTitle">用手機掃描，直接詢問這台車</h2>
+    <p id="vehicleLineDescription">掃描後會開啟貳輪嶼官方 LINE，並自動帶入這台車的資訊。</p>
+    <canvas class="vehicle-line-qr" id="vehicleLineQr" role="img" aria-label="LINE 詢問 QR Code" hidden></canvas>
+    <a class="vehicle-line-open" id="vehicleLineChat" target="_blank" rel="noopener noreferrer">在手機開啟 LINE</a>
+    <div class="vehicle-line-links">
+      <a id="vehicleLineAddFriend" target="_blank" rel="noopener noreferrer">在電腦版 LINE 加入好友</a>
+      <button type="button" id="copyVehicleLineDraft">複製詢問內容</button>
+    </div>
+    <span class="vehicle-line-status" id="vehicleLineStatus" role="status"></span>
+    <textarea class="vehicle-line-draft" id="vehicleLineDraft" aria-label="LINE 詢問內容" rows="4" readonly hidden></textarea>
+  </div>
+</dialog>
+<template id="warrantyPreview" data-heading="保固項目與期限">
+  <section class="warranty-section">
+    <h4>引擎系統</h4>
+    <p class="warranty-period"><strong>365 天或行駛 10,000 公里</strong>（以先到者為主）</p>
+    <p>非人為損壞之引擎核心部件（如汽缸本體、缸頭、活塞、曲軸、氣門、搖臂等）。</p>
+  </section>
+  <section class="warranty-section">
+    <h4>消耗品</h4>
+    <p class="warranty-period"><strong>30 天或行駛 1,000 公里</strong>（以先到者為主）</p>
+    <ul>
+      <li><strong>車輛騎乘耗材</strong>：機件墊片、煞車皮、輪胎、燈泡、電瓶、保險絲、火星塞、火星塞蓋、離合線器</li>
+      <li><strong>傳動系統</strong>：變速箱、離合器、皮帶、傳動前組、齒輪箱、碗公、開閉盤等</li>
+      <li><strong>電系系統</strong>：啟動馬達、整流器、主線組、ABS 感應線、輪速感應線等</li>
+      <li><strong>冷卻系統</strong>：散熱風扇、水泵、冷卻裝置等</li>
+      <li><strong>剎車系統</strong>：主缸、卡鉗、煞車皮、碟盤、油管等</li>
+    </ul>
+  </section>
+  <p class="warranty-note">對於其他未列入之項目，將依實際損耗情形及專業技術判定，酌情從優處理，惟不列為固定保固義務。</p>
+</template>
+<template id="asIsPreview" data-heading="現況車款">
+  <p class="as-is-notice"><span aria-hidden="true">❌</span>此現況車不適用保固事項權益</p>
+</template>
+<template id="contractPreview" data-heading="定型化契約預覽">
+  <article class="contract-paper">
+    <div class="contract-paper-heading">
+      <h4>注意事項說明，請詳閱：</h4>
+      <a href="./contract-notice.png?v=cb372cf6031f" target="_blank" rel="noopener">查看清晰圖片</a>
+    </div>
+    <ol class="contract-clauses">
+      <li>本合約為定型化契約，適用《消費者保護法》之規定，本公司於簽約前，已提供客戶合理期間以審閱合約全部條款。客戶已收訖本合約範本，並已充分審閱、理解所有條款內容，且無任何異議。客戶簽署本合約，即視為已行使其契約審閱權利。</li>
+      <li>交易若非買方本人親辦，代理人須保證有買賣權限，並應提供車主與代理人的證件予賣方影印存查，並請填妥以下車主與代理人詳細資料，以保障雙方權益。</li>
+      <li>買方委託賣方辦理手續之身分證件，交易完成前不得聲明作廢或辦理申請補發，違者依據刑法第二一四條究辦，得處三年以下有期徒刑。</li>
+      <li>車輛買賣前經核對確認無誤，並完成過戶交車手續後，如有發生變造或交通責任及民、刑事等糾紛之發生，均為買方責任與賣方無關。</li>
+      <li>經檢測車輛證實定義為車台骨架有嚴重變形、泡水車、AB 車，若該情形為車輛售出前即已存在，且未於雙方簽訂買賣契約前明確記載於合約內容中，經維修技師於交車日起三十日內判定屬實者，將提供無條件全額退車及退款之處理。</li>
+      <li>車輛訂購後，非因賣方違約因素，買方因任意原因欲於交車日前退貨，退貨時產生之相關手續費用須由買方承擔（如過戶手續費等）。</li>
+      <li>承上，若買方以貸款方式購車，於退貨及貸款解約時所產生之相關手續費用、貸款利息等衍生費用，須由買方承擔。</li>
+      <li>因二手機車之里程數受多種因素影響（如更換儀表、碼錶線斷等），賣方無法保證車輛里程之絕對準確性，僅盡合理檢查義務。買方已充分理解並同意，除本公司「七日安心退車政策」另有約定外，非重大瑕疵不得作為退換車輛或索賠之理由。非重大瑕疵包括但不限於以下情況：正常使用痕跡、可預期的零件耗損、日常保養維修項目、外觀瑕疵等。</li>
+      <li>賣方車輛過戶手續已辦理完成後，若買方因故需先取走交付於賣方辦理過戶使用之證件，買方需先結清車輛尾款方可取回個人證件，如付款方式為貸款則需等貸款公司完成貸款設定。</li>
+      <li>如購買車輛為 gogoro 車款，自資費轉移日起，買方需負擔當月剩餘天數比例的資費，與系統開通設定費一併由 gogoro 於次月通知買方付費，資費與系統開通費依 gogoro 官方公告為準。</li>
+      <li>承上款，為確保 gogoro 電池資費轉移流程順利完成，買方應於交車前預先註冊 gogoro 帳號，並於車輛完成過戶後，依 gogoro 規定線上辦理電池資費轉移手續。若需由賣方協助代辦資費轉移，買賣雙方需另行簽署授權書，賣方始得以買方名義操作 gogoro 帳號進行相關作業。</li>
+      <li>保固政策與終身售後服務之適用對象與詳細內容，請參閱交車手冊，或掃描本契約所附之 QR Code。</li>
+    </ol>
+  </article>
+</template>
+<div class="toast" id="toast"></div>
+<script src="./qrcode.js?v=510f3b947ecf"></script>
+<script src="./app.js?v=fad5a42478ea"></script>
+</body>
+</html>
